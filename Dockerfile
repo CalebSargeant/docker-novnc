@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:bookworm
 
 # Install git, supervisor, VNC, & X11 packages
 RUN set -ex; \
